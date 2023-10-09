@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"github.com/depends-on/gomod"
+)
 
 func main() {
-	fmt.Println("Hello, World!")
+	gomod.MyFunction("World")
 }
